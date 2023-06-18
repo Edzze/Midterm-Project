@@ -25,4 +25,4 @@ receipt::receipt(string n, int x) {
   price = x;
 }
 
-#endif
+#endif 

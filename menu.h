@@ -12,7 +12,6 @@ int amount;
 bool isBought = false;
 int bought;
 
-
 public:
 int get_price() {return price;}
 string get_name() {return name;}
