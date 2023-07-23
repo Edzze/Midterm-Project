@@ -11,6 +11,7 @@ private:
   int amount;
   int price;
   int bought;
+  receipt* next;
 
 public:
   void sort();
@@ -18,6 +19,9 @@ public:
   void set_receipt(int s[], int x);
   receipt(string n = "Nothing", int x = 0);
   ~receipt();
+};
+receipt* getNext() { return next; }
+  void setNext(receipt* node) { next = node; }
 };
 
 receipt::receipt(string n, int x) {

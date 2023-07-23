@@ -22,6 +22,7 @@ void check();
 bool return_check(){return isBought;}
 string return_string();
 pair<string, int> get_snack();
+void bought_snacks(int x);
 int return_bought();
 int buy(int x);
 snack(string n="Nothing", int p=0, int x= rand()%20+1, int b=0);
@@ -65,7 +66,6 @@ int snack::return_bought()
 {
   return bought;
 }
-
 
 snack::~snack()
 {
